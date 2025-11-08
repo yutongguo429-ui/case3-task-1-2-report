@@ -17,8 +17,8 @@ Client A is replenished every hour with a 4-hour autonomy, while Client B is rep
 * **99.5 % hourly demand –** Using a safety factor z = 2.58, the protected hourly demand was calculated as:
     D_hr_99.5 = μ_hr + z × σ_hr
 * **Safety stock by autonomy time –**
-    * Client A (4 h autonomy): $S_A = D_{\text{hr\_99.5}} \times 4$
-    * Client B (12 h autonomy): $S_B = D_{\text{hr\_99.5}} \times 12$
+    * Client A (4 h autonomy): $$S_A = D_{\text{hr\_99.5}} \times 4$$
+    * Client B (12 h autonomy): $$S_B = D_{\text{hr\_99.5}} \times 12$$
 * **Volume, area, and cost –**
     * Total Volume = Inventory × Part Volume (ft³ per piece)
     * Floor Area = Total Volume / Usable Height (20 ft)
