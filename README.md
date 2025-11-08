@@ -32,26 +32,29 @@ Our four-step methodology was as follows:
 The following formulas were used to execute the methodology. (Note: These are written in LaTeX and will render correctly in a GitHub `.md` file).
 
 **1. Product Weekly Standard Deviation ($\sigma_{\text{prod}}$):**
-$
+
+$$
 \sigma_{\text{prod}} = \mu_{\text{prod, weekly}} \times CV_{\text{prod}}
-$
+$$
 
 **2. Part Weekly Standard Deviation ($\sigma_{\text{part}}$):**
 *Calculated by aggregating the variances from each product.*
-$
+
+$$
 \sigma_{\text{part}} = \sqrt{\sum_{\text{prod}} (N_{\text{part\_in\_prod}}^2 \times \sigma_{\text{prod}}^2)}
-$
+$$
 
 **3. Z-Score for 99.5% Service Level:**
-$
+
+$$
 Z = \text{NORM.S.INV}(0.995) \approx 2.576
-$
+$$
 
 **4. Final Capacity Planning Demand (CPD):**
-$
-\text{CPD} = \text{CEILING}(\mu_{\text{part, weekly}} + (Z \times \sigma_{\text{part, weekly}}))
-$
 
+$$
+\text{CPD} = \text{CEILING}(\mu_{\text{part, weekly}} + (Z \times \sigma_{\text{part, weekly}}))
+$$
 | Part | Weekly Avg Demand ($\mu_{\text{weekly}}$) | Weekly Std Dev ($\sigma_{\text{weekly}}$) | **Capacity Planning Demand (CPD) (Units/Week)** |
 | :--- | :--- | :--- | :--- |
 | P1 | 20,962 | 2,235.16 | **26,719** |
