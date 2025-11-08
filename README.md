@@ -41,9 +41,7 @@ $$
 *Calculated by aggregating the variances from each product.*
 
 $$
-
 \sigma_{\text{part}} = \sqrt{\sum_{\text{prod}} (N_{\text{part\_in\_prod}}^2 \times \sigma_{\text{prod}}^2)}
-
 $$
 
 **3. Z-Score for 99.5% Service Level:**
