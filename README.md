@@ -52,10 +52,6 @@ $$
 \text{CPD} = \text{CEILING}(\mu_{\text{part, weekly}} + (Z \times \sigma_{\text{part, weekly}}))
 $$
 
-## 4. Final Capacity Plan (Year +1)
-
-The table below is the final deliverable for Task 1. The **"Capacity Planning Demand (CPD)"** column represents the official weekly production target that the factory must be able to achieve to meet its service level agreement.
-
 | Part | Weekly Avg Demand ($\mu_{\text{weekly}}$) | Weekly Std Dev ($\sigma_{\text{weekly}}$) | **Capacity Planning Demand (CPD) (Units/Week)** |
 | :--- | :--- | :--- | :--- |
 | P1 | 20,962 | 2,235.16 | **26,719** |
