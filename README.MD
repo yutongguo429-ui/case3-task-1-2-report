@@ -20,9 +20,9 @@ Client A is replenished every hour with a 4-hour autonomy, while Client B is rep
     * Client A (4 h autonomy): $S_A = D_{\text{hr\_99.5}} \times 4$
     * Client B (12 h autonomy): $S_B = D_{\text{hr\_99.5}} \times 12$
 * **Volume, area, and cost –**
-    * $\text{Total Volume} = \text{Inventory} \times \text{Part Volume (ft³ per piece)}$
-    * $\text{Floor Area} = \text{Total Volume} / \text{Usable Height (20 ft)}$
-    * $\text{Building Cost} = \text{Floor Area} \times 200 \text{ \$/ft²}$
+    * Total Volume = Inventory × Part Volume (ft³ per piece)
+    * Floor Area = Total Volume / Usable Height (20 ft)
+    * Building Cost = Floor Area × 200 \$/ft²
 * **Factory outbound storage –**
     * The factory buffer follows a 2-week autonomy rule using the data in the “FeMoaSa Warehouse” sheet: 2-week inventory (units), 2-week space (ft³), and ratio of square footage (ft²).
     * These represent the quantity, volume, and area of outbound storage.
