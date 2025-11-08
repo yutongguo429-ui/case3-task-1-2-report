@@ -15,7 +15,7 @@ Client A is replenished every hour with a 4-hour autonomy, while Client B is rep
 * **Demand transformation –** Product demand was converted into part-level weekly averages and standard deviations using the Product–Parts matrix.
 * **Hourly demand conversion –** Weekly demand values were divided by 80 operating hours per week to obtain average and standard-deviation demand per hour.
 * **99.5 % hourly demand –** Using a safety factor z = 2.58, the protected hourly demand was calculated as:
-    * $D_{\text{hr\_99.5}} = \mu_{\text{hr}} + z \times \sigma_{\text{hr}}$
+    D_hr_99.5 = μ_hr + z × σ_hr
 * **Safety stock by autonomy time –**
     * Client A (4 h autonomy): $S_A = D_{\text{hr\_99.5}} \times 4$
     * Client B (12 h autonomy): $S_B = D_{\text{hr\_99.5}} \times 12$
@@ -93,7 +93,7 @@ $$
 | P14 | 43 208.32 | 1 200.23 | 227.82 |
 | P15 | 5 624.15 | 312.45 | 59.31 |
 | P16 | 31 265.19 | 1 157.97 | 219.80 |
-*| P17 | 12 274.78 | 340.97 | 64.72 |
+| P17 | 12 274.78 | 340.97 | 64.72 |
 | P18 | 28 606.56 | 794.63 | 150.83 |
 | P19 | 48 125.22 | 1 336.81 | 253.75 |
 | P20 | 35 939.83 | 998.33 | 189.50 |
