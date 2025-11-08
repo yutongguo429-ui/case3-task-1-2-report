@@ -15,14 +15,14 @@ Client A is replenished every hour with a 4-hour autonomy, while Client B is rep
 * **Demand transformation –** Product demand was converted into part-level weekly averages and standard deviations using the Product–Parts matrix.
 * **Hourly demand conversion –** Weekly demand values were divided by 80 operating hours per week to obtain average and standard-deviation demand per hour.
 * **99.5 % hourly demand –** Using a safety factor z = 2.58, the protected hourly demand was calculated as:
-    D_hr_99.5 = μ_hr + z × σ_hr
+    * $D_{\text{hr\_99.5}} = \mu_{\text{hr}} + z \times \sigma_{\text{hr}}$
 * **Safety stock by autonomy time –**
-    * Client A (4 h autonomy): $$S_A = D_{\text{hr\_99.5}} \times 4$$
-    * Client B (12 h autonomy): $$S_B = D_{\text{hr\_99.5}} \times 12$$
+    * Client A (4 h autonomy): $S_A = D_{\text{hr\_99.5}} \times 4$
+    * Client B (12 h autonomy): $S_B = D_{\text{hr\_99.5}} \times 12$
 * **Volume, area, and cost –**
     * Total Volume = Inventory × Part Volume (ft³ per piece)
     * Floor Area = Total Volume / Usable Height (20 ft)
-    * Building Cost = Floor Area × 200 $/ft²
+    * Building Cost = Floor Area × 200 \$/ft²
 * **Factory outbound storage –**
     * The factory buffer follows a 2-week autonomy rule using the data in the “FeMoaSa Warehouse” sheet: 2-week inventory (units), 2-week space (ft³), and ratio of square footage (ft²).
     * These represent the quantity, volume, and area of outbound storage.
@@ -77,27 +77,27 @@ $$
 
 | Part | 2-Week Autonomy Inventory (units) | 2-Week Autonomy Space (ft³) | Square Footage (ft²) |
 | :--- | :--- | :--- | :--- |
-| P1 | 50 065.27 | 2 086.05 | 395.96 |
-| P2 | 26 632.52 | 3 945.56 | 748.93 |
-| P3 | 14 563.37 | 1 820.42 | 345.54 |
-| P4 | 22 492.72 | 3 748.79 | 711.58 |
-| P5 | 17 749.07 | 1 972.12 | 374.34 |
-| P6 | 10 161.75 | 564.54 | 107.16 |
-| P7 | 34 598.07 | 961.06 | 182.42 |
-| P8 | 11 248.30 | 416.60 | 79.08 |
-| P9 | 22 288.15 | 1 238.23 | 235.03 |
-| P10 | 11 192.37 | 414.53 | 78.68 |
-| P11 | 20 323.50 | 1 129.08 | 214.32 |
-| P12 | 24 549.56 | 2 045.80 | 388.32 |
-| P13 | 12 274.78 | 340.97 | 64.72 |
-| P14 | 43 208.32 | 1 200.23 | 227.82 |
-| P15 | 5 624.15 | 312.45 | 59.31 |
-| P16 | 31 265.19 | 1 157.97 | 219.80 |
-| P17 | 12 274.78 | 340.97 | 64.72 |
-| P18 | 28 606.56 | 794.63 | 150.83 |
-| P19 | 48 125.22 | 1 336.81 | 253.75 |
-| P20 | 35 939.83 | 998.33 | 189.50 |
-| **Total** | **483 183.00** | **26 825.00** | **5 091.81** |
+| P1 | 50065.27 | 2086.05 | 395.96 |
+| P2 | 26632.52 | 3945.56 | 748.93 |
+| P3 | 14563.37 | 1820.42 | 345.54 |
+| P4 | 22492.72 | 3748.79 | 711.58 |
+| P5 | 17749.07 | 1972.12 | 374.34 |
+| P6 | 10161.75 | 564.54 | 107.16 |
+| P7 | 34598.07 | 961.06 | 182.42 |
+| P8 | 11248.30 | 416.60 | 79.08 |
+| P9 | 22288.15 | 1238.23 | 235.03 |
+| P10 | 11192.37 | 414.53 | 78.68 |
+| P11 | 20323.50 | 1129.08 | 214.32 |
+| P12 | 24549.56 | 2045.80 | 388.32 |
+| P13 | 12274.78 | 340.97 | 64.72 |
+| P14 | 43208.32 | 1200.23 | 227.82 |
+| P15 | 5624.15 | 312.45 | 59.31 |
+| P16 | 31265.19 | 1157.97 | 219.80 |
+| P17 | 12274.78 | 340.97 | 64.72 |
+| P18 | 28606.56 | 794.63 | 150.83 |
+| P19 | 48125.22 | 1336.81 | 253.75 |
+| P20 | 35939.83 | 998.33 | 189.50 |
+| **Total** | **483183.00** | **26825.00** | **5091.81** |
 
 ### 4.2 Client A Near-Client Warehouse (4 h autonomy, 99.5 %)
 
