@@ -37,10 +37,12 @@ $$
 \sigma_{\text{prod}} = \mu_{\text{prod, weekly}} \times CV_{\text{prod}}
 $$
 
-**2. Part Weekly Standard Deviation (σₚₐᵣₜ):**  
+**2. Part Weekly Standard Deviation (σ<sub>part</sub>):**  
 *Calculated by aggregating the variances from each product.*
 
-σₚₐᵣₜ = √(Σₚᵣₒd (Nₚₐᵣₜ₋ᵢₙ₋ₚᵣₒd² × σₚᵣₒd²))
+<p align="center"><b>
+σ<sub>part</sub> = √(Σ<sub>prod</sub>(N<sub>part_in_prod</sub><sup>2</sup> × σ<sub>prod</sub><sup>2</sup>))
+</b></p>
 
 
 **3. Z-Score for 99.5% Service Level:**
