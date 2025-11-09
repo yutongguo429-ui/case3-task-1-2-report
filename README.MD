@@ -67,9 +67,7 @@ $$
 
 **Building cost ($)**
 
-$$
-\text{Building cost (\$)} = \text{Floor area} \times 200
-$$
+<p align="center"><b>Building cost ($) = Floor area × 200</b></p>
 
 ## 4. Results
 
